@@ -1,0 +1,214 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+
+body {
+    margin: 0;
+    font-family: "Quicksand", Arial, sans-serif;
+    color: #5a4a42;
+    line-height: 1.6;
+    background-color: #fffaf0;
+}
+
+strong {
+    color: #e0607e;
+}
+
+
+h1 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+h2 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+
+/* Home Page */
+.hero {
+    background-color: #fff3b0;
+    text-align: center;
+    padding: 60px 20px;
+    width: 80%;
+    margin: 30px auto;
+    border-radius: 15px;
+}
+
+.tag {
+    color: #d4a017;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 64px;
+    margin: 10px 0;
+    color: #e0607e;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    padding: 20px;
+    background-color: white;
+}
+
+.nav a {
+    color: #e0607e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.nav a:hover {
+    color: #d4a017;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    color: white;
+    background-color: #e0607e;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 18px;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: #d94f70;
+}
+
+.btn-light {
+    color: #5a4a42;
+    background-color: #fff3b0;
+}
+
+.container {
+    width: 800px;
+    margin: 30px auto;
+    padding: 20px 40px;
+    background-color: white;
+}
+
+.container p {
+    line-height: 1.8;
+}
+
+.section-title {
+    color: #e0607e;
+    font-size: 28px;
+}
+
+.container h2 {
+    color: #d4a017;
+}
+
+.container h2 {
+    background-color: #fff3b0;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+
+.card-group {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    text-align: center;
+    background-color: #fff3b0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card h2 {
+  margin: 0 0 5px 0;
+}
+
+.card p {
+  margin: 0;
+}
+
+/* Ingredient Lists */
+.list li {
+    padding: 4px 0;
+}
+
+.list li::marker {
+    color: #e0607e;
+}
+
+/* Kitchen Tools */
+.tools {
+    list-style: none; 
+    padding: 0;
+}
+
+.tools li {
+    padding: 6px 0;
+}
+
+.tools .tool {
+    font-weight: bold;
+}
+
+.tools .arrow {
+    color: #e0607e;
+    margin: 0 8px;
+}
+
+/* Steps */
+.steps li {
+    margin-bottom: 20px;
+    background-color: #fff3b0;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.steps h2 {
+    margin-bottom: 5px;
+}
+
+.steps p {
+    margin-top: 0;
+}
+
+.tips {
+    margin-top: 30px;
+    background-color: #fffaf0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tips h2 {
+    color: #e0607e;
+}
+
+.steps li::marker {
+    color: #e0607e;
+    font-weight: bold;
+}
+
+.step-content {
+    padding: 5px;
+}
+
+/* Buttons */
+.page-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
